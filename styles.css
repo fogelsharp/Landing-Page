@@ -8,6 +8,22 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
+a {
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
 .header {
     background-color: #1f2937;
 }
@@ -22,7 +38,7 @@ a:active { text-decoration: none; }
 }
 
 .headerlinks {
-    
+    color: #F9FAF8;
 }
 
 .extendedheader {
@@ -49,7 +65,10 @@ a:active { text-decoration: none; }
 }
 
 .extendedheaderlogo {
-    
+    background-color: #F9FAF8;
+    padding: 5px;
+    width: 300px;
+    height: 150px;
 }
 
 .infoblock {
@@ -67,7 +86,11 @@ a:active { text-decoration: none; }
 }
 
 .infopic {
-
+    border: 1px #3882f6;
+    background-color: white;
+    border-radius: 12px;
+    padding: 5px;
+    width: 150px;
 }
 
 .quoteblock {
@@ -83,7 +106,7 @@ a:active { text-decoration: none; }
 }
 
 .signupblock {
-
+    background-color: #3882f6;
 }
 
 .signupleft {
