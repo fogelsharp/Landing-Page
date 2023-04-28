@@ -4,12 +4,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
 
 a {
     color: #F9FAF8;
@@ -27,15 +39,21 @@ button {
     margin: 4px 2px;
 }
 
+.wrapper {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .header {
     background-color: #1f2937;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .topheader {
     display: flex;
     align-items: row;
     justify-content: space-between;
-
 }
 
 .headerlogo {
@@ -48,16 +66,23 @@ button {
     display: flex;
     align-items: row;
     justify-content: space-between;
+    gap: 12px;
+    font-size: 12px;
 }
 
 .extendedheader {
     display: flex;
     align-items: row;
     justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .extendedheaderleft {
-
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .extendedheadertitle {
@@ -72,11 +97,22 @@ button {
 }
 
 .extendedheaderbutton {
+    display: flex;
+    width: fit-content;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
 
+.extendedheaderright {
+    flex-grow: 1;
+    display: flex;
 }
 
 .extendedheaderlogo {
-    background-color: #F9FAF8;
+    background-color: rgb(110, 115, 125);
     padding: 5px;
     width: 300px;
     height: 150px;
@@ -84,28 +120,52 @@ button {
 
 .infoblock {
     background-color: white;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .infosubject {
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    text-align: center;
 }
 
 .infopics {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
 
+.infopicwrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .infopic {
-    border: 1px #3882f6;
+    border: 2px solid #3882f6;  
     background-color: white;
     border-radius: 12px;
-    padding: 5px;
-    width: 150px;
+    width: 120px;
+}
+
+.infopictext {
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+    width: 120px;
 }
 
 .quoteblock {
     background-color: #e5e7eb;
+    padding: 100px;
 }
 
 .quotetext {
@@ -113,28 +173,26 @@ button {
 }
 
 .quotesource {
-
+    text-align: right;
+    font-weight: bold;
+    font-size: smaller;
 }
 
 .signupblock {
     background-color: #3882f6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.signupleft {
+.signupleft {}
 
-}
+.signupsubject {}
 
-.signupsubject {
+.signuptext {}
 
-}
-
-.signuptext {
-
-}
-
-.signupbutton {
-
-}
+.signupbutton {}
 
 .footer {
     background-color: #1f2937;
