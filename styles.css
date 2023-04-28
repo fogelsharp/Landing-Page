@@ -1,5 +1,15 @@
-.header {
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.header {
+    background-color: #1f2937;
 }
 
 .topheader {
@@ -7,11 +17,12 @@
 }
 
 .headerlogo {
-
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .headerlinks {
-
+    
 }
 
 .extendedheader {
@@ -23,27 +34,32 @@
 }
 
 .extendedheadertitle {
-
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
 }
 
 .extendedheadertext {
-
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .extendedheaderbutton {
 
 }
 
-.extendedheaderimage {
-
+.extendedheaderlogo {
+    
 }
 
 .infoblock {
-
+    background-color: white;
 }
 
 .infosubject {
-
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 .infopics {
@@ -55,11 +71,11 @@
 }
 
 .quoteblock {
-
+    background-color: #e5e7eb;
 }
 
 .quotetext {
-
+    font-style: italic;
 }
 
 .quotesource {
@@ -87,5 +103,6 @@
 }
 
 .footer {
-
+    background-color: #1f2937;
+    color: white;
 }
