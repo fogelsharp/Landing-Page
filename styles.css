@@ -1,6 +1,9 @@
 body {
     background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 a:link { text-decoration: none; }
@@ -29,6 +32,9 @@ button {
 }
 
 .topheader {
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
 
 }
 
@@ -39,10 +45,15 @@ button {
 
 .headerlinks {
     color: #F9FAF8;
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
 }
 
 .extendedheader {
-
+    display: flex;
+    align-items: row;
+    justify-content: space-between;
 }
 
 .extendedheaderleft {
