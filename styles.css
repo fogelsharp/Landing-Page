@@ -27,18 +27,6 @@ a {
     color: #F9FAF8;
 }
 
-button {
-    background-color: #3882f6;
-    border: none;
-    color: white;
-    padding: 2px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-}
-
 .wrapper {
     margin-left: 100px;
     margin-right: 100px;
@@ -54,6 +42,7 @@ button {
     display: flex;
     align-items: row;
     justify-content: space-between;
+    padding-top: 25px;
 }
 
 .headerlogo {
@@ -72,6 +61,7 @@ button {
 
 .extendedheader {
     display: flex;
+    flex-direction: row;
     align-items: row;
     justify-content: space-between;
     padding-top: 100px;
@@ -79,8 +69,7 @@ button {
 }
 
 .extendedheaderleft {
-    flex-grow: 1;
-    display: flex;
+
     flex-direction: column;
     justify-content: left;
 }
@@ -94,28 +83,31 @@ button {
 .extendedheadertext {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 6px;
+    margin-bottom: 12px;
 }
 
 .extendedheaderbutton {
     display: flex;
     width: fit-content;
     border-radius: 6px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 6px;
     padding-bottom: 6px;
+    color: white;
+    background-color: #3882f6;
+    border-style: none;
+    font-size: 18px;
 }
 
 .extendedheaderright {
-    flex-grow: 1;
-    display: flex;
+
 }
 
 .extendedheaderlogo {
-    background-color: rgb(110, 115, 125);
-    padding: 5px;
-    width: 300px;
-    height: 150px;
+    border: 2px solid rgb(110, 115, 125);
+    width: 400px;
 }
 
 .infoblock {
@@ -170,31 +162,77 @@ button {
 
 .quotetext {
     font-style: italic;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: larger;
+    color: grey;
 }
 
 .quotesource {
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: right;
     font-weight: bold;
-    font-size: smaller;
+    font-size: smaller; 
 }
 
 .signupblock {
     background-color: #3882f6;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     margin-left: 100px;
     margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.signupleft {}
+.signupleft {
+    padding: 50px;
+}
 
-.signupsubject {}
+.signupsubject {
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+}
 
-.signuptext {}
+.signuptext {
+    color: white;
+    font-size: x-small;
+}
 
-.signupbutton {}
+.signupright {
+    padding: 50px;
+    justify-self: center;
+    align-self: center;
+}
+
+.actionsignupbutton {
+    display: flex;
+    width: fit-content;
+    background-color: #3882f6;
+    border: 2px solid white;  
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+
+
+    border-radius: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+}
 
 .footer {
     background-color: #1f2937;
+    font-size: small;
     color: white;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
 }
